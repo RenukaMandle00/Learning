@@ -1,0 +1,9 @@
+
+public class TaxCalApp {
+	double TotalCost; 
+	public  double calculateTotalWithTax(double purchaseAmount, double taxRate) {
+		double TotalCost = (purchaseAmount*taxRate)+ purchaseAmount;
+		return TotalCost;
+	}
+
+}

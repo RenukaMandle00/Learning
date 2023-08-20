@@ -1,0 +1,15 @@
+
+public class BitCount {
+	
+    
+	public int countSetBits(int num){
+	
+		int count =0;
+	while(num>=0){
+       
+        	 System.out.println(count);
+        	 count++;
+	}
+	return count;
+}
+}

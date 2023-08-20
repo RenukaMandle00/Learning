@@ -1,0 +1,14 @@
+
+public class BitCount {
+	
+    
+	public int countSetBits(int num) {
+		int counter = num & num;
+	return counter;
+	
+	if(num>0 & 1) {
+       
+        	 
+         
+	}
+}

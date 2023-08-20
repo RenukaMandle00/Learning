@@ -1,0 +1,9 @@
+
+public class TaxCalApp {
+	
+	public double calculateTotalWithTax(double purchaseAmount, double taxRate) {
+		double TotalCost = (purchaseAmount*taxRate)+ purchaseAmount;
+		System.out.println(TotalCost);
+	}
+
+}

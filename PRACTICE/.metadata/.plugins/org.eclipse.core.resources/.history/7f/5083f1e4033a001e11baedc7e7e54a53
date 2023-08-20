@@ -1,0 +1,9 @@
+
+public class BitCount {
+	
+    
+	public int countSetBits(int num) {
+	return num & num;
+
+	}
+}

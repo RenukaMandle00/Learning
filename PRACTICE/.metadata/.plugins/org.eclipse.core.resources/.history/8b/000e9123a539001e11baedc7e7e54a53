@@ -1,0 +1,60 @@
+import java.util.Scanner;
+
+public class MethodOverLoadingCalculator {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the first number");
+		int a = scan.nextInt();
+		
+		System.out.println("Enter the second number");
+		int b = scan.nextInt();
+		
+		System.out.println("Enter the operator number");
+		int operator = scan.next().charAt(0);
+		int res1 = Calculator('+', b, a);
+		int res2 = Calculator(a,'-',b);
+		int res3= Calculator(a, b, '*');
+		int res4= Calculator(a, b, '/');
+
+    
+	}
+	public static int  Calculator(char operator, int b, int a) {
+		
+		switch(operator) {
+		
+		case '+' :
+			System.out.println("Addition is " + (a+b));
+		}
+		return a+b;
+	}
+   public static int Calculator(int a, char operator, int b ) {
+		
+		switch(operator) {
+		
+		case '-' :
+			System.out.println("Subtraction is " + (a-b));
+		}
+		return a-b;
+   }
+   
+   public static int Calculator(int a, int b, char operator) {
+		
+		switch(operator) {
+		
+		case '*' :
+			System.out.println("Multiplication is " + (a*b));
+		}
+		return a*b;
+  }
+   
+   public static int Calculator(int a, int b, char operator, double res) {
+		
+		switch(operator) {
+		
+		case '/' :
+			System.out.println("Division is " + (a/b));
+		}
+		return a/b;
+ }
+}

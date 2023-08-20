@@ -1,0 +1,25 @@
+
+public class CalDilemma {
+	int sign;
+     void Calculator(int num1, int num2) {
+    	 switch(sign) {
+    	 
+    	 case '+':
+    	 System.out.println("Addition is " + num1+num2);
+    	 
+//    	 case '-':
+//        	 System.out.println("Subtraction is " + num2-num1);
+    	
+    	 case '*':
+    	 System.out.println("Multiplication is " + num1*num2);
+    	 
+    	 case '/':
+    	 System.out.println("Division is " + num2/num1);
+    	 
+    	 default:
+    		 System.out.println("invalid");
+    	 
+    	 
+    	 }
+     }
+}

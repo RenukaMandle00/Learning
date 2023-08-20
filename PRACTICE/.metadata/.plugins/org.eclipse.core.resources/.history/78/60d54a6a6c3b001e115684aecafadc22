@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class BitCounterApp {
+
+	public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Enter the Number");
+    int num = scan.nextInt();
+    
+    BitCount bit = new BitCount();
+  int count = bit.countSetBits(num);
+    
+    System.out.println(count );
+    
+	}
+
+}

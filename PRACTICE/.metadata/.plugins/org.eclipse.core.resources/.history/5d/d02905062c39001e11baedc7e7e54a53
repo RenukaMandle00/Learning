@@ -1,0 +1,13 @@
+
+public class degreeSymbol {
+
+	public static void main(String[] args) {
+	 
+		        System.out.println("Temperature: 25 0176C");
+		    }
+		
+
+
+	}
+
+
